@@ -18,7 +18,7 @@ export default function Login() {
   return (
     <div className="flex items-center justify-center h-screen">
       <form className="bg-white p-8 rounded shadow w-80" onSubmit={handleLogin}>
-        <h2 className="text-2xl font-bold mb-4">Login</h2>
+        <h2 className="text-2xl font-bold mb-4">Welcome to Prince’s LMS 🚀</h2>
         <div className="mb-4">
           <label className="block mb-1">Email</label>
           <input name="email" className="w-full p-2 border rounded" type="email" required />
